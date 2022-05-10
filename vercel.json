@@ -6,8 +6,8 @@
 		}
 	},
 	"builds": [
-		{ "src": "blog/package.json", "use": "@vercel/next" },
-		{ "src": "home/package.json", "use": "@vercel/next" }
+		{ "src": "home/package.json", "use": "@vercel/next" },
+		{ "src": "blog/package.json", "use": "@vercel/next" }
 	],
 	"routes": [
 		{ "src": "/:path*", "dest": "/:path*" },
