@@ -6,7 +6,7 @@ function Header() {
 			<Link href="/">
 				<a>Home</a>
 			</Link>
-			<Link href="/blog">
+			<Link href={`${process.env.BLOG_URL}/blog`}>
 				<a>Blog</a>
 			</Link>
 		</nav>
