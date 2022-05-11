@@ -10,11 +10,11 @@ const nextConfig = {
 			},
 			{
 				source: '/blog',
-				destination: `${process.env.BLOG_URL}/blog`
+				destination: `https://multi-zone-blog-rose.vercel.app/blog`
 			},
 			{
 				source: '/blog/:path*',
-				destination: `${process.env.BLOG_URL}/blog/:path*`
+				destination: `https://multi-zone-blog-rose.vercel.app/blog/:path*`
 			}
 		];
 	}
