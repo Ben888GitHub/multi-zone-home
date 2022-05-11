@@ -6,7 +6,7 @@ function Header() {
 			<Link href="/">
 				<a>Home</a>
 			</Link>
-			<Link href={`${process.env.BLOG_URL}/blog`} passHref={true}>
+			<Link href="https://multi-zone-blog-rose.vercel.app/blog" passHref={true}>
 				<a>Blog</a>
 			</Link>
 		</nav>
