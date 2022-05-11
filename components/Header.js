@@ -6,7 +6,7 @@ function Header() {
 			<Link href="/">
 				<a>Home</a>
 			</Link>
-			<Link href="https://multi-zone-blog-rose.vercel.app/blog" passHref={true}>
+			<Link href="/blog">
 				<a>Blog</a>
 			</Link>
 		</nav>
