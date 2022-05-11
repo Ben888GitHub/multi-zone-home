@@ -1,4 +1,4 @@
-const { BLOG_URL } = process.env;
+// const { BLOG_URL } = process.env;
 
 const nextConfig = {
 	// reactStrictMode: true,
@@ -10,11 +10,11 @@ const nextConfig = {
 			},
 			{
 				source: '/blog',
-				destination: `${BLOG_URL}/blog`
+				destination: `${process.env.BLOG_URL}/blog`
 			},
 			{
 				source: '/blog/:path*',
-				destination: `${BLOG_URL}/blog/:path*`
+				destination: `${process.env.BLOG_URL}/blog/:path*`
 			}
 		];
 	}
