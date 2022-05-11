@@ -1,4 +1,4 @@
-// const { BLOG_URL } = process.env;
+const { NEXT_PUBLIC_BLOG_URL } = process.env;
 
 const nextConfig = {
 	// reactStrictMode: true,
@@ -10,11 +10,11 @@ const nextConfig = {
 			},
 			{
 				source: '/blog',
-				destination: `https://multi-zone-blog-rose.vercel.app/blog`
+				destination: `${NEXT_PUBLIC_BLOG_URL}/blog`
 			},
 			{
 				source: '/blog/:path*',
-				destination: `https://multi-zone-blog-rose.vercel.app/blog/:path*`
+				destination: `${NEXT_PUBLIC_BLOG_URL}/blog/:path*`
 			}
 		];
 	}
